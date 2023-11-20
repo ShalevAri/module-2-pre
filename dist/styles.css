@@ -64,3 +64,16 @@
   cursor: pointer;
   background: #b1b1b1;
 }
+
+.form-item-input {
+  height: 3rem;
+  background: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  border-radius: 5px;
+}
+
+.create-activity-group-input {
+  padding-left: 2rem;
+}
