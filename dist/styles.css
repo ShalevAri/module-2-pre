@@ -8,12 +8,15 @@
   font-family: "Poppins", sans-serif;
 }
 
+.title-form-separator {
+  height: 20rem;
+}
+
 .form-items-container {
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 100vh;
-  gap: 350px;
+  gap: 300px;
 }
 
 .form-item-container {
