@@ -7,3 +7,11 @@
   color: black;
   font-family: "Poppins", sans-serif;
 }
+
+.form-items-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+}
