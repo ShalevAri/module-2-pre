@@ -9,6 +9,53 @@
 	</head>
 	<body>
 		<h1 class="page-title">Activity Tracker</h1>
+
+		<!-- <div class="stat-placeholder">Here would be the statistics</div> -->
+		<!-- TODO: Add stats section -->
+
+		<h2 class="secondary-title">What have I done today?</h2>
+
+		<form action="activity-form">
+			<div>
+				<div>
+					<h2>Create an Activity Group here</h2>
+					<input
+						type="text"
+						name="NewGroupName"
+						id="NewGroupName"
+						placeholder="Enter Activity Group name here"
+					/>
+				</div>
+				<div>
+					<h2>Choose your Activity Group</h2>
+					<section>
+						<option value="sport">Sport</option>
+						<option value="coding">Coding</option>
+						<option value="eating">Eating</option>
+						<option value="watch-tv">Watch TV</option>
+						<!-- TODO: Dynamically add sections to choose groups -->
+					</section>
+				</div>
+				<div>
+					<h2>How long?</h2>
+					<select name="ActivityDuration" id="ActivityDuration">
+						<option value="l15m">Less than 15 minutes</option>
+						<option value="a15m">About 15 minutes</option>
+						<option value="less30m">Less than 30 minutes</option>
+						<option value="a30m">About 30 minutes</option>
+						<option value="a1h">About 1 hour</option>
+						<option value="a2h">About 2 hour</option>
+						<option value="a3h">About 3 hour</option>
+						<option value="a4h">About 4 hour</option>
+						<option value="a5h">About 5 hour</option>
+					</select>
+				</div>
+			</div>
+			<div>
+				<button class="confirm-button">Confirm</button>
+				<button class="cancel-button">Cancel</button>
+			</div>
+		</form>
 		<script defer src="./dist/script.js"></script>
 	</body>
 </html>
