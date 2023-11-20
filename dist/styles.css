@@ -59,3 +59,8 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
+
+.button:hover {
+  cursor: pointer;
+  background: #b1b1b1;
+}
