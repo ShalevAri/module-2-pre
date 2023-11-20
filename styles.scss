@@ -40,3 +40,31 @@
 		"Lucida Sans", Arial, sans-serif;
 	font-size: 22px;
 }
+
+.buttons-container {
+	display: flex;
+	justify-content: center;
+	gap: 12px;
+	position: relative;
+	top: 8rem;
+}
+
+.button {
+	font-size: 3.5em;
+	background: transparent;
+	border: 2px solid black;
+	border-radius: 999px;
+	padding: 1rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+}
+
+// .confirm-button {
+
+// }
+
+// .cancel-button {
+
+// }
