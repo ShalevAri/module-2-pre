@@ -15,3 +15,12 @@ const confirmButton = document.querySelector(
 const cancelButton = document.querySelector(
 	".cancel-button"
 ) as HTMLButtonElement
+
+confirmButton.addEventListener("click", (e) => {
+	e.preventDefault
+	alert("The confirm button has been clicked!")
+})
+cancelButton.addEventListener("click", (e) => {
+	e.preventDefault
+	alert("The cancel button has been clicked!")
+})
