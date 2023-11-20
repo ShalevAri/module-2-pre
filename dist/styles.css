@@ -15,3 +15,15 @@
   height: 100vh;
   gap: 350px;
 }
+
+.form-item-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+.form-item-title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 22px;
+}
