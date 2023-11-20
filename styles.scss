@@ -26,6 +26,13 @@
 	flex-direction: column;
 	gap: 20px;
 	text-align: center;
+	position: relative;
+	right: 90px;
+}
+
+.activity-duration-container {
+	position: relative;
+	right: 60px;
 }
 
 .form-item-title {
